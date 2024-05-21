@@ -5,4 +5,4 @@ __fiz um site para alugel de iates site estatico__
 ## como ele ficou
 
 
-![site](Projeto.png)
+![site](C:\Users\pedro\Desktop\exemplos\html\projetohtml\Projeto.png)
