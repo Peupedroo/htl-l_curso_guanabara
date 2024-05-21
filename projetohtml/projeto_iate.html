@@ -1,86 +1,126 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aluguel de Iates</title>
+    <title>Luxo - Aluguel de Iates</title>
     <style>
         body {
-            background-color: #f0f0f0;
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
+            background-color: #f0f0f0;
         }
-        #topo {
+        header {
             background-color: #000;
             color: #fff;
-            padding: 10px;
             display: flex;
             justify-content: space-between;
             align-items: center;
+            padding: 10px 20px;
         }
-        #luxo {
-            margin-left: 20px;
+        header h1 {
+            margin: 0;
         }
         nav ul {
-            list-style-type: none;
+            list-style: none;
+            display: flex;
             margin: 0;
             padding: 0;
-            display: flex;
         }
         nav ul li {
             margin-right: 20px;
-        }
-        nav ul li:last-child {
-            margin-right: 0;
         }
         nav ul li a {
             color: #fff;
             text-decoration: none;
         }
-        #espacinho {
-            border: 1px solid black;
-            background-image: url(imagens/barcoprincipal.jpg);
-            height: 495px;
-            width: 100%;
-            box-sizing: border-box;
-            padding: 20px;
+        .banner {
+            position: relative;
             text-align: center;
-            color: #fff;
+            color: white;
+        }
+        .banner img {
+            width: 100%;
+            height: auto;
+        }
+        .banner .text {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 20px;
+        }
+        .content {
+            display: flex;
+            justify-content: space-around;
+            padding: 20px;
+        }
+        .content .section {
+            width: 45%;
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .content .section h2 {
+            color: #0099cc;
+        }
+        .content .section img {
+            width: 100%;
+            height: auto;
         }
         footer {
             background-color: #000;
             color: #fff;
-            padding: 20px;
             text-align: center;
+            padding: 10px 0;
         }
     </style>
 </head>
 <body>
-    <header id="topo">
-        <div id="luxo">
-            <h1>Luxo</h1>
-        </div>
-        <h2>Aluguel de Iates</h2>
+    <header>
+        <h1>Luxo - Aluguel de Iates</h1>
         <nav>
             <ul>
                 <li><a href="#">Página Inicial</a></li>
                 <li><a href="#">Aluguel de Iates</a></li>
+                <li><a href="#">Destinos</a></li>
                 <li><a href="#">Tripulação</a></li>
                 <li><a href="#">Contato</a></li>
             </ul>
         </nav>
     </header>
-    <div id="espacinho">
-        <p>Você só encontra coisas boas,<br>se combinar com luxo e paixão</p>
-        <p>
-            <img src="imagens/barco2.png" alt="">
-            Ligue agora para agendar as férias de<br>sua vida ligue (00)8000-0000
-        </p>
+
+    <div class="banner">
+        <img src="imagens/barcoprincipal.jpg" alt="Iate de Luxo">
+        <div class="text">
+            <h2>Você só encontra coisas boas, se combinar luxo e paixão.</h2>
+            <p>Ligue agora para agendar as férias de sua vida: (00) 8000-0000</p>
+        </div>
     </div>
+
+    <div class="content">
+        <div class="section">
+            <h2>Destinos</h2>
+            <p>Sou um título. Clique aqui para me editar.</p>
+            <p>Clique aqui para adicionar seu texto e me editar. É fácil! Basta clicar em "Editar Texto" ou clicar duas vezes sobre mim e poderá adicionar seu próprio conteúdo e mudar fontes. Sou um ótimo lugar para contar sua história e permitir que seus visitantes saibam um pouco mais sobre você.</p>
+            <img src="imagens/destino.jpg" alt="Destino de Luxo">
+        </div>
+        <div class="section">
+            <h2>Nossa Frota</h2>
+            <p>Sou um título. Clique aqui para me editar.</p>
+            <p>Clique aqui para adicionar seu texto e me editar. É fácil! Basta clicar em "Editar Texto" ou clicar duas vezes sobre mim e poderá adicionar seu próprio conteúdo e mudar fontes. Sou um ótimo lugar para contar sua história e permitir que seus visitantes saibam um pouco mais sobre você.</p>
+            <img src="imagens/frota.jpg" alt="Nossa Frota">
+            <img src="imagens/frota2.jpg" alt="Nossa Frota">
+            <img src="imagens/frota3.jpg" alt="Nossa Frota">
+        </div>
+    </div>
+
     <footer>
-        <p><img src="imagens/destino.png" alt=""> Destinos</p>  
-        <h3>Sou um título, toque para me editar</h3> 
-        <p>
-            Clique aqui para adicionar seu trabalho e me editar. É fácil, basta clicar em "editar texto" ou clicar duas vezes sobre mim e poderá adicionar seu próprio conteúdo e mudar fontes. Sou um ótimo lugar para contar sua história e permitir que seus visitantes saibam um pouco mais sobre você.
-            <div><img src="imagens/barcodest
+        <p>&copy; 2023 por Luxo aluguel de iates</p>
+    </footer>
+</body>
+</html>
+
+
